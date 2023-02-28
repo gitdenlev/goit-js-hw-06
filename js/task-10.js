@@ -30,7 +30,7 @@ const destroyBoxes = () => {
 createButton.addEventListener("click", () => {
 
   let elementsToAdd = createBoxes(inputNumber.value);
-  boxes.append(...elementsToAdd);
+  boxes.append(...elementsToAdd);d
 });
 
 destroyButton.addEventListener("click", () => {
