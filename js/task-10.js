@@ -28,11 +28,12 @@ const destroyBoxes = () => {
 };
 
 createButton.addEventListener("click", () => {
-
   let elementsToAdd = createBoxes(inputNumber.value);
-  boxes.append(...elementsToAdd);d
+  boxes.append(...elementsToAdd);
+  d;
 });
 
 destroyButton.addEventListener("click", () => {
   destroyBoxes();
 });
+
